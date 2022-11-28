@@ -1,0 +1,233 @@
+header.center{
+    margin-top: 49px;
+}
+header li+li{
+    margin-left: 2.4vw;
+}
+header .lang i{
+    font-size: 14px;
+    margin-left: 3px;
+}
+header img{
+    max-width: 100px;
+    max-height: 50px;
+}
+header  a:hover {
+    color: var(--red);
+}
+
+header .buttonLink{
+    height: 60px;
+    min-width: 200px;
+    padding: 0 15px;
+    background: var(--white);
+    color: var(--red);
+    font:600 18px var(--font);
+    margin-left: 42px;
+}
+header .buttonLink i{
+    font-size: 22px;
+    margin-left: 14px;
+}
+
+/*box banner start*/
+section .bannerStart{
+    height: calc(100vh - 109px);
+    min-height: 430px;
+}
+section .bannerStart .text{
+    max-width: 590px;
+    order: 1;
+}
+section .bannerStart img{
+    order: 2;
+    max-width: 700px;
+    margin-right: -272px;
+}
+section .bannerStart h1{
+    font:600 73px var(--font);
+    color: var(--blue);
+}
+section .bannerStart p{
+    color: var(--grey);
+    margin-top: 35px;
+}
+section .bannerStart .links{
+    margin-top: 40px;
+}
+section .bannerStart .standardButton{
+    margin-left: 39px;
+}
+section .text h3{
+    MARGIN: INHERIT;
+}
+
+/*offer - section*/
+.offer{
+    padding: 0;
+    flex-wrap: wrap;
+}
+.offer > *{
+    flex: auto;
+    width: 300px;
+    margin: 30px;
+}
+.offer .text{
+    width: 320px;
+}
+.offer h3{
+    margin-bottom: 43px;
+}
+.offer .item{
+    padding: 30px 40px;
+    background-color: var(--white);
+}
+.offer .intev{
+    width: 15rem;
+    height: 30rem;
+}
+.offer h2{
+    margin: 45px 0 35px;
+    font:600 27px var(--font);
+    color: var(--blue);
+    line-height: 1.3em;
+}
+.offer p{
+    font: 400 20px var(--font);
+    color:var(--black);
+    line-height: 1.6em;
+}
+
+
+
+
+
+.news .item a {
+    font-size: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.news .item:hover {
+    background-color: var(--red);
+}
+.news .item:hover *,
+.news .item:hover:after {
+    color: var(--white);}
+
+
+
+
+
+
+
+
+
+
+
+
+section .normal img{
+    max-width: 4rem;
+color: var(--blue);
+}
+ section .offer2 .item h1{
+    position: relative;
+    right: -26rem;
+    margin-bottom: 5rem;
+    bottom: 1rem ;
+    font: 600 25px var(--font);
+    color: var(--red);
+}
+
+section .offer2 .item p{
+    position: relative;
+    bottom: 30px;
+    color: var(--blue);
+    right: 33px;
+    font: 600 35px var(--font);
+}
+section .offer2 .item h3{
+    position: relative;
+    color: var(--black);
+    bottom: 1rem;
+}
+section .uparty .item .XD{
+    font: 600 20px var(--font);
+    color: var(--black);
+}
+   
+section .of p{
+    position: relative;
+    left: 4rem;
+}
+    
+
+
+
+
+/* stupka/*/
+footer.center{
+    background-color : var(--blue);
+   padding: 40px;
+   width: 1920px;
+   height: 395px;
+}
+footer h2{
+    font: 600 42px var(--font);
+    margin: 20px;
+    position: relative;
+    right: -32rem;
+}
+footer h3{
+    font:600 42px var(--font);
+    margin:20px;
+    position: relative;
+    right: -39rem;
+}
+footer nav li+li{margin-left: 2.4vw;
+}
+
+footer nav  li+li{
+    padding-bottom: 10px;
+}
+
+footer nav:hover{
+    color: var(--red);
+}
+footer ul .social a{
+    font-size: 38px;
+}
+footer ul .social li+li{
+    margin-left: 5vw;
+}
+   
+.wielka{
+    margin-bottom: 80px;
+}
+
+
+
+.dupa p {
+    position: relative;
+    bottom: -20px;}
+    
+.ikonki{
+    justify-content: center;
+    margin: 40px;
+    padding: 10px;
+    color: var(--red);
+}
+
+ 
+
+/*RWD/*/
+@media screen and (max-width:500px){
+    header nav ul .flexblock{
+    display: none;
+    position: absolute;
+    right: 0px;
+    left: 0px;  
+    }
+}
